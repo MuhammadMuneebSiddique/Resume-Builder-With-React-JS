@@ -392,6 +392,9 @@
 
 @media print {
   body {
+    & .resume-template{
+      font-size: 15px;
+    }
     -webkit-print-color-adjust: exact; /* Ensures Chrome and Safari print colors */
     print-color-adjust: exact; /* Ensures Firefox prints colors */
   }

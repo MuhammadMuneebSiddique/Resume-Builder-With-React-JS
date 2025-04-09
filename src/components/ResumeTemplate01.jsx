@@ -270,11 +270,10 @@ const ResumeForm = () => {
     setIsHidden(!isHidden);
 
     setTimeout(() => {
-      setIsHidden(!isHidden)
+      setIsHidden(true)
     }, 2000);
 
     setTimeout(() => {
-      // document.body.style.width = "fit-content"
       window.print();
     }, 1000);
 

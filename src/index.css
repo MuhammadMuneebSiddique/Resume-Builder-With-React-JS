@@ -393,7 +393,7 @@
 @media print {
   body {
     & .resume-template{
-      font-size: 15px;
+      font-size: 13.5px;
     }
     -webkit-print-color-adjust: exact; /* Ensures Chrome and Safari print colors */
     print-color-adjust: exact; /* Ensures Firefox prints colors */

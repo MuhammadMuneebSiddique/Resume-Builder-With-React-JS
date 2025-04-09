@@ -75,7 +75,7 @@ function LandingPage() {
                 {resumeTemplate.map((curElem)=>{
                     return(
                         <div className='resume-image w-fit shadow-lg hover:scale-110 relative flex justify-center items-center transition-all'>
-                            <Link className='absolute z-10 bottom-[5em]' href="/components/ResumeForm"><button type="button" className='use-this-template hidden w-fit text-[1em] capitalize py-[1em] px-[2em] rounded-[3em] bg-[#1A91F0] text-[#fff] font-poppin font-medium'>Use this Template</button></Link>
+                            <Link className='absolute z-10 bottom-[5em]' to="/components/ResumeForm"><button type="button" className='use-this-template hidden w-fit text-[1em] capitalize py-[1em] px-[2em] rounded-[3em] bg-[#1A91F0] text-[#fff] font-poppin font-medium'>Use this Template</button></Link>
                             <img src={curElem.image} className='w-[30em]' />
                         </div>
                     )
